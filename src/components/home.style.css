@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* HEADER */
 .header-holder {
   max-width: 1280px;
@@ -9,8 +15,6 @@
 }
 
 .menu-icon {
-  width: 36px;
-  height: 36px;
   cursor: pointer;
 }
 
@@ -57,4 +61,143 @@ input:checked + .btn::before {
 
 #check {
   display: none;
+}
+
+/* HERO SECTION */
+.hero {
+  padding-bottom: 90px;
+  padding-top: 30px;
+}
+
+.hero-section-holder {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-section-text-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  color: #1e1916;
+}
+
+.hero-title {
+  font-family: "Tanker";
+  font-size: 84px;
+  font-weight: 400;
+}
+
+.hero-text {
+  max-width: 640px;
+  width: 100%;
+  line-height: 1.7;
+}
+
+.hero-btn {
+  max-width: 295px;
+  width: 100%;
+  padding: 6px 0px;
+  border: none;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e1916;
+  font-family: inherit;
+  color: #fbfbe7;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.btn-icon-holder {
+  background-color: #efead3;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-right: -12px;
+}
+
+.btn-icon {
+  color: #1e1916;
+  font-size: 20px;
+}
+
+.hero-img {
+  max-width: 1280px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header-holder {
+    width: 95%;
+  }
+
+  .hero-section-holder {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-title {
+    font-size: 68px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    padding-top: 0;
+    padding-bottom: 45pxssssssss;
+  }
+
+  .hero-section-text-holder {
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .hero-btn {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-title {
+    font-size: 50px;
+  }
+
+  .hero-text {
+    font-size: 15px;
+  }
+
+  .menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .hero-btn {
+    font-size: 15px;
+    max-width: 280px;
+  }
 }

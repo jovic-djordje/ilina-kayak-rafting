@@ -6,7 +6,7 @@ const Logo = ({ className }) => {
 };
 
 const Hero = ({ className }) => {
-  return <img src={Hero} alt="" className={className} />;
+  return <img src={hero} alt="" className={className} />;
 };
 
 export { Logo, Hero };
