@@ -1,0 +1,60 @@
+/* HEADER */
+.header-holder {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.menu-icon {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 120px;
+}
+
+.btn-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #1e1916;
+  width: 55px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.btn::before {
+  position: absolute;
+  content: "";
+  background-color: #efead3;
+  width: 21px;
+  height: 21px;
+  border-radius: 50px;
+  margin: 4.5px;
+  transition: 0.2s;
+}
+
+input:checked + .btn {
+  background: #df6535;
+}
+
+input:checked + .btn::before {
+  transform: translateX(25px);
+  background-color: #efead3;
+}
+
+#check {
+  display: none;
+}
