@@ -109,13 +109,19 @@ input:checked + .btn::before {
   border: none;
   border-radius: 24px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 12px;
   background-color: #1e1916;
   font-family: inherit;
   color: #fbfbe7;
   font-size: 16px;
   margin-top: 40px;
+}
+
+.hero-btn-text {
+  flex: 1;
+  text-align: center;
 }
 
 .btn-icon-holder {
@@ -127,7 +133,8 @@ input:checked + .btn::before {
   align-items: center;
   width: 35px;
   height: 35px;
-  margin-right: -12px;
+  flex-shrink: 0;
+  margin-right: 8px;
 }
 
 .btn-icon {
