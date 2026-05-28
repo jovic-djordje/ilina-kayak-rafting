@@ -23,6 +23,20 @@ export const translations = {
       cartFourText:
         "Pored raftinga i kajaka, u našoj ponudi su i airsoft i party splav — za grupe koje žele više od običnog izleta i dan ispunjen avanturom i dobrom atmosferom.",
     },
+
+    why: {
+      title: "Zašto gosti biraju Ilina Kayak Rafting",
+      text: "Kod nas avantura ne znači haos, već dobro organizovan doživljaj u kojem se adrenalin i sigurnost savršeno dopunjuju. Na vodi si sa ljudima koji znaju rijeku, poštuju prirodu i razumiju koliko je važno da se svaki gost osjeća sigurno i opušteno.",
+      cartOneTitle: "Sigurnost na prvom mjestu",
+      cartOneText:
+        "Svaka aktivnost organizovana je uz profesionalan pristup, odgovornu pripremu i vođenje prilagođeno grupi.",
+      cartTwoTitle: "Iskusni i sertifikovani vodiči",
+      cartTwoText:
+        "Tim čine zaljubljenici u sportove na divljim vodama, uključujući sertifikovane ICF sudije i trenere.",
+      cartThreeTitle: "Doživljaj za pamćenje",
+      cartThreeText:
+        "Ne nudimo samo spust rijekom, već iskustvo koje spaja prirodu, energiju i zajedničke uspomene.",
+    },
   },
 
   en: {
@@ -48,6 +62,20 @@ export const translations = {
       cartFourTitle: "More fun for the group",
       cartFourText:
         "In addition to rafting and kayaking, we also offer airsoft and a party raft — perfect for groups who want more than an ordinary trip and a day filled with adventure and a great atmosphere.",
+    },
+
+    why: {
+      title: "Why guests choose Ilina Kayak Rafting",
+      text: "With us, adventure does not mean chaos, but a well-organized experience where adrenaline and safety work perfectly together. On the water, you are with people who know the river, respect nature, and understand how important it is for every guest to feel safe and relaxed.",
+      cartOneTitle: "Safety comes first",
+      cartOneText:
+        "Every activity is organized with a professional approach, careful preparation, and guidance adapted to the group.",
+      cartTwoTitle: "Experienced and certified guides",
+      cartTwoText:
+        "Our team is made up of passionate whitewater enthusiasts, including certified ICF judges and coaches.",
+      cartThreeTitle: "An experience to remember",
+      cartThreeText:
+        "We offer more than just a trip down the river — we create an experience that brings together nature, energy, and shared memories.",
     },
   },
 };
