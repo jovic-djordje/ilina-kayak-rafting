@@ -99,7 +99,7 @@ input:checked + .btn::before {
 .hero-text {
   max-width: 640px;
   width: 100%;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .hero-btn {
@@ -148,13 +148,139 @@ input:checked + .btn::before {
   border-radius: 16px;
 }
 
+/*SERVICE SECTION */
+.service {
+  padding: 90px 0px;
+}
+
+.service-section-holder {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.service-section-text-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.service-title {
+  font-family: "Tanker";
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.service-text {
+  max-width: 770px;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.service-section-cart-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.service-cart {
+  background-color: #df6535;
+  border-radius: 16px;
+  border: none;
+  padding: 24px 0px;
+  min-height: 345px;
+  height: 100%;
+}
+
+.service-cart-width {
+  width: 87%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  height: 100%;
+}
+
+.service-cart-icon-holder {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #efead3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-cart-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.service-cart-title {
+  font-family: "Tanker";
+  font-weight: 400;
+  color: #efead3;
+  font-size: 28px;
+}
+
+.service-cart-text {
+  color: #efead3;
+  line-height: 160%;
+  font-size: 14px;
+}
+
+.service-cart-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.service-cart-cta {
+  font-size: 15px;
+  color: #efead3;
+  font-family: "Tanker";
+  font-weight: 400;
+  letter-spacing: 3%;
+}
+
+.icon {
+  color: #efead3;
+  font-size: 24px;
+}
+
 @media screen and (max-width: 1280px) {
   .header-holder {
     width: 95%;
   }
 
-  .hero-section-holder {
+  .hero-section-holder,
+  .service-section-holder {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .service-cart {
+    min-height: 300px;
+  }
+
+  .service-section-cart-holder {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -167,12 +293,25 @@ input:checked + .btn::before {
     font-size: 16px;
     max-width: 550px;
   }
+
+  .service-title {
+    font-size: 50px;
+  }
+
+  .service-text {
+    font-size: 16px;
+    max-width: 550px;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .hero {
     padding-top: 0;
-    padding-bottom: 45pxssssssss;
+    padding-bottom: 45px;
+  }
+
+  .hero-section-holder {
+    gap: 36px;
   }
 
   .hero-section-text-holder {
@@ -183,9 +322,17 @@ input:checked + .btn::before {
   .hero-btn {
     margin-top: 12px;
   }
+
+  .service {
+    padding: 45px 0px;
+  }
+
+  .service-section-holder {
+    gap: 36px;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .hero-title {
     font-size: 50px;
   }
@@ -206,5 +353,21 @@ input:checked + .btn::before {
   .hero-btn {
     font-size: 15px;
     max-width: 280px;
+  }
+
+  .service-text {
+    font-size: 15px;
+  }
+
+  .service-section-cart-holder {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-cart {
+    min-height: 345px;
+  }
+
+  .service-title {
+    font-size: 40px;
   }
 }
