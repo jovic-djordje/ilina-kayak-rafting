@@ -37,6 +37,17 @@ export const translations = {
       cartThreeText:
         "Ne nudimo samo spust rijekom, već iskustvo koje spaja prirodu, energiju i zajedničke uspomene.",
     },
+
+    test: {
+      textOne:
+        "Odlicni, sadrzaj je veoma bogat. Konstantno su se trudili da nam prikazu sve ljepote rijeke. Saznali smo koliko je Banja Luka bogata istorijski. Posebna pohvala za skipera koji veoma dobro zna sta radi.",
+      textTwo:
+        "Kajak tura je odlicno prilagodjena. Sve nam je super objasnjeno. Skroz druga dimenzija u odnosu na rafting. Takodje i za rafting turu sve preporuke. Puno smijeha i zabave.",
+      textThree:
+        "Djeca su uzivala, bilo je zanimljivo, bezbjedno i odlicno organizovano. Slavili smo rodjendan. Cak smo i poklon dobili. Sve preporuke od nas.",
+      textFour:
+        "Tim iz Ilina Kayak Raftinga je zaista sjajan - opušten, zabavan i izuzetno profesionalan, učinili su rafting čistim zadovoljstvom od početka do kraja! Sve preporuke ❤️",
+    },
   },
 
   en: {
@@ -76,6 +87,17 @@ export const translations = {
       cartThreeTitle: "An experience to remember",
       cartThreeText:
         "We offer more than just a trip down the river — we create an experience that brings together nature, energy, and shared memories.",
+    },
+
+    test: {
+      textOne:
+        "Excellent experience, with a very rich and engaging tour. They constantly made an effort to show us all the beauty of the river. We also learned how historically rich Banja Luka is. Special praise for the skipper, who clearly knows exactly what he is doing.",
+      textTwo:
+        "The kayak tour was very well adapted to our needs. Everything was explained to us clearly. It was a completely different experience compared to rafting. We also highly recommend the rafting tour — lots of laughter and fun.",
+      textThree:
+        "The children really enjoyed it. It was interesting, safe, and very well organized. We celebrated a birthday, and we even received a gift. Highly recommended from all of us.",
+      textFour:
+        "The Ilina Kayak Rafting team is truly great — relaxed, fun, and extremely professional. They made rafting a pure pleasure from start to finish! Highly recommended ❤️",
     },
   },
 };
