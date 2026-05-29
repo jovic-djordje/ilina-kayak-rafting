@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import "./home.style.css";
 import ServiceSection from "./ServiceSection";
 import WhySection from "./WhySection";
+import Testimonials from "./Testimonials";
 
 const Home = ({ t, language, toggleLanguage }) => {
   return (
@@ -11,6 +12,7 @@ const Home = ({ t, language, toggleLanguage }) => {
       <HeroSection t={t} />
       <ServiceSection t={t} />
       <WhySection t={t} />
+      <Testimonials t={t} />
     </>
   );
 };
