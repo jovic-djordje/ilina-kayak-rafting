@@ -48,6 +48,11 @@ export const translations = {
       textFour:
         "Tim iz Ilina Kayak Raftinga je zaista sjajan - opušten, zabavan i izuzetno profesionalan, učinili su rafting čistim zadovoljstvom od početka do kraja! Sve preporuke ❤️",
     },
+
+    gallery: {
+      title: "Pogledaj kako izgleda avantura na Vrbasu",
+      text: "Od mirnijih trenutaka na vodi do dinamičnih spustova kroz brzake, galerija donosi djelić atmosfere koja čini Vrbas posebnim.",
+    },
   },
 
   en: {
@@ -91,13 +96,17 @@ export const translations = {
 
     test: {
       textOne:
-        "Excellent experience, with a very rich and engaging tour. They constantly made an effort to show us all the beauty of the river. We also learned how historically rich Banja Luka is. Special praise for the skipper, who clearly knows exactly what he is doing.",
+        "Excellent experience, with a very rich and engaging tour. They constantly made an effort to show us all the beauty of the river. We also learned how historically rich Banja Luka is. Special praise for the skipper, who clearly knows what he’s doing.",
       textTwo:
         "The kayak tour was very well adapted to our needs. Everything was explained to us clearly. It was a completely different experience compared to rafting. We also highly recommend the rafting tour — lots of laughter and fun.",
       textThree:
         "The children really enjoyed it. It was interesting, safe, and very well organized. We celebrated a birthday, and we even received a gift. Highly recommended from all of us.",
       textFour:
         "The Ilina Kayak Rafting team is truly great — relaxed, fun, and extremely professional. They made rafting a pure pleasure from start to finish! Highly recommended ❤️",
+    },
+    gallery: {
+      title: "See what an adventure on the Vrbas looks like",
+      text: "From calm moments on the water to exciting runs through the rapids, this gallery captures a glimpse of the atmosphere that makes the Vrbas special.",
     },
   },
 };

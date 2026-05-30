@@ -4,6 +4,7 @@ import "./home.style.css";
 import ServiceSection from "./ServiceSection";
 import WhySection from "./WhySection";
 import Testimonials from "./Testimonials";
+import GallerySection from "./GallerySection";
 
 const Home = ({ t, language, toggleLanguage }) => {
   return (
@@ -13,6 +14,7 @@ const Home = ({ t, language, toggleLanguage }) => {
       <ServiceSection t={t} />
       <WhySection t={t} />
       <Testimonials t={t} />
+      <GallerySection t={t} />
     </>
   );
 };
