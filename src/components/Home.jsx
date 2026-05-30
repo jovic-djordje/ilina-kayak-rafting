@@ -5,6 +5,7 @@ import ServiceSection from "./ServiceSection";
 import WhySection from "./WhySection";
 import Testimonials from "./Testimonials";
 import GallerySection from "./GallerySection";
+import FaqSection from "./FaqSection";
 
 const Home = ({ t, language, toggleLanguage }) => {
   return (
@@ -15,6 +16,7 @@ const Home = ({ t, language, toggleLanguage }) => {
       <WhySection t={t} />
       <Testimonials t={t} />
       <GallerySection t={t} />
+      <FaqSection t={t} />
     </>
   );
 };

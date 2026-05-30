@@ -53,6 +53,23 @@ export const translations = {
       title: "Pogledaj kako izgleda avantura na Vrbasu",
       text: "Od mirnijih trenutaka na vodi do dinamičnih spustova kroz brzake, galerija donosi djelić atmosfere koja čini Vrbas posebnim.",
     },
+
+    faq: {
+      title: "Česta pitanja",
+      qOne: " Da li je rafting pogodan za početnike?",
+      aOne: "Da. Naše ture su organizovane tako da i početnici mogu uživati u iskustvu uz stručno vođenje i potrebne upute prije polaska.",
+      qTwo: "Da li dobijamo opremu?",
+      aTwo: "Da, obezbjeđujemo potrebnu opremu za aktivnosti kako bi iskustvo bilo sigurno i organizovano.",
+      qThree: "Da li nudite kajak za pojedince?",
+      aThree:
+        "Da. U ponudi imamo najam kajaka, kao i opcije za one koji žele dodatno vođenje ili privatne časove.",
+      qFour: "Kako mogu rezervisati termin?",
+      aFour:
+        "Termin možeš rezervisati pozivom, porukom ili slanjem upita putem kontakt forme, u zavisnosti od toga šta ti najviše odgovara.",
+      qFive: "Da li organizujete aktivnosti za grupe?",
+      aFive:
+        "Da. Rafting i ostale aktivnosti su odličan izbor za društvo, team building, proslave i grupne izlete.",
+    },
   },
 
   en: {
@@ -107,6 +124,23 @@ export const translations = {
     gallery: {
       title: "See what an adventure on the Vrbas looks like",
       text: "From calm moments on the water to exciting runs through the rapids, this gallery captures a glimpse of the atmosphere that makes the Vrbas special.",
+    },
+
+    faq: {
+      title: "Frequently Asked Questions",
+      qOne: "Is rafting suitable for beginners?",
+      aOne: "Yes. Our tours are organized so that beginners can enjoy the experience with professional guidance and the necessary instructions before departure.",
+      qTwo: "Do we get equipment?",
+      aTwo: "Yes, we provide the necessary equipment for the activities so the experience is safe and well organized.",
+      qThree: "Do you offer kayaks for individuals?",
+      aThree:
+        "Yes. We offer kayak rentals, as well as options for those who want additional guidance or private lessons.",
+      qFour: "How can I book a time slot?",
+      aFour:
+        "You can book by phone, message, or by sending an inquiry through the contact form, whichever suits you best.",
+      qFive: "Do you organize activities for groups?",
+      aFive:
+        "Yes. Rafting and other activities are a great choice for friends, team building, celebrations, and group trips.",
     },
   },
 };
