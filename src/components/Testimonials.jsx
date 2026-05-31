@@ -81,7 +81,7 @@ const Testimonials = ({ t }) => {
   }, []);
 
   return (
-    <section className="test">
+    <section className="test" id="test">
       <div className="test-holder">
         <Logo className="logo" />
 
