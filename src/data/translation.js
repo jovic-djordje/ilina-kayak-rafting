@@ -70,6 +70,17 @@ export const translations = {
       aFive:
         "Da. Rafting i ostale aktivnosti su odličan izbor za društvo, team building, proslave i grupne izlete.",
     },
+
+    contact: {
+      title: "Rezerviši svoju avanturu",
+      text: "Ako tražiš dan ispunjen adrenalinom, prirodom i dobrom ekipom, javi nam se i rezerviši svoj termin. Tu smo da ti pomognemo da izabereš pravu opciju, bilo da dolaziš sam, s društvom ili organizuješ aktivnost za veću grupu.",
+      firstName: "Ime",
+      lastName: "Prezime",
+      phone: "Telefon",
+      message: "Poruka",
+      placeholder: "Željeni datum, aktivnost i broj osoba",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.193265188015!2d17.1827942!3d44.7606257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e030037a6fe37%3A0xed7ffb31ec23dff!2sIlina%20Kayak%20Rafting!5e1!3m2!1sbs!2sba!4v1780234225726!5m2!1sbs!2sba",
+    },
   },
 
   en: {
@@ -141,6 +152,17 @@ export const translations = {
       qFive: "Do you organize activities for groups?",
       aFive:
         "Yes. Rafting and other activities are a great choice for friends, team building, celebrations, and group trips.",
+    },
+
+    contact: {
+      title: "Book your adventure",
+      text: "If you're looking for a day filled with adrenaline, nature, and good company, get in touch and reserve your spot. We're here to help you choose the right option, whether you're coming alone, with friends, or organizing an activity for a larger group.",
+      firstName: "First Name",
+      lastName: "Last Name",
+      phone: "Phone",
+      message: "Message",
+      placeholder: "Preferred date, activity, and number of people",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.193265188015!2d17.1827942!3d44.7606257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e030037a6fe37%3A0xed7ffb31ec23dff!2sIlina%20Kayak%20Rafting!5e1!3m2!1sen!2sba!4v1780234225726!5m2!1sen!2sba",
     },
   },
 };

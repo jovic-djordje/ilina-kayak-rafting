@@ -67,7 +67,7 @@ const GallerySection = ({ t }) => {
   ];
 
   return (
-    <section className="gallery">
+    <section className="gallery" id="gallery">
       <div className="gallery-section-holder">
         <div className="gallery-section-text-holder">
           <h2 className="gallery-title">{t.gallery.title}</h2>

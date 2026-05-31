@@ -38,7 +38,7 @@ const FaqSection = ({ t }) => {
   };
 
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
       <div className="faq-section-holder">
         <h2 className="faq-title">{t.faq.title}</h2>
 

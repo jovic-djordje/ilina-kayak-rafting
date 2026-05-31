@@ -43,7 +43,7 @@ const ServiceSection = ({ t }) => {
   ];
 
   return (
-    <section className="service">
+    <section className="service" id="service">
       <div className="service-section-holder">
         <div className="service-section-text-holder">
           <h2 className="service-title">{t.service.title}</h2>
@@ -56,10 +56,10 @@ const ServiceSection = ({ t }) => {
                 <div className="service-cart-icon-holder">{cart.icon}</div>
                 <h3 className="service-cart-title">{cart.title}</h3>
                 <p className="service-cart-text">{cart.text}</p>
-                <div className="service-cart-btn">
+                <a href="#contact" className="service-cart-btn">
                   <span className="service-cart-cta">{cart.btn}</span>
                   {cart.iconBtn}
-                </div>
+                </a>
               </div>
             </div>
           ))}
