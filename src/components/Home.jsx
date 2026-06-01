@@ -7,6 +7,7 @@ import Testimonials from "./Testimonials";
 import GallerySection from "./GallerySection";
 import FaqSection from "./FaqSection";
 import ContactSection from "./ContactSection";
+import Footer from "./Footer";
 
 const Home = ({ t, language, toggleLanguage }) => {
   return (
@@ -19,6 +20,7 @@ const Home = ({ t, language, toggleLanguage }) => {
       <GallerySection t={t} />
       <FaqSection t={t} />
       <ContactSection t={t} />
+      <Footer t={t} />
     </>
   );
 };

@@ -16,6 +16,7 @@ import gallerySeven from "./gallery-seven.webp";
 import galleryEight from "./gallery-eight.webp";
 import galleryNine from "./gallery-nine.webp";
 import galleryTen from "./gallery-ten.webp";
+import devLogo from "./logo2.webp";
 
 const Logo = ({ className }) => {
   return <img src={logo} alt="Logo" className={className} />;
@@ -89,6 +90,10 @@ const GalleryTen = ({ className }) => {
   return <img src={galleryTen} alt="" className={className} />;
 };
 
+const DevLogo = ({ className }) => {
+  return <img src={devLogo} alt="" className={className} />;
+};
+
 export {
   Logo,
   Hero,
@@ -108,4 +113,5 @@ export {
   GalleryEight,
   GalleryNine,
   GalleryTen,
+  DevLogo,
 };

@@ -81,6 +81,23 @@ export const translations = {
       placeholder: "Željeni datum, aktivnost i broj osoba",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.193265188015!2d17.1827942!3d44.7606257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e030037a6fe37%3A0xed7ffb31ec23dff!2sIlina%20Kayak%20Rafting!5e1!3m2!1sbs!2sba!4v1780234225726!5m2!1sbs!2sba",
     },
+
+    footer: {
+      text: "Ilina Kayak Rafting je tim zaljubljenika u rafting i kajak koji spaja avanturu, prirodu i profesionalno vođenje u iskustvo koje se pamti. Sa dugogodišnjim iskustvom, sertifikovanim stručnjacima i ljubavlju prema divljim vodama, nudimo sigurne i nezaboravne doživljaje na Vrbasu za sve koji žele više od običnog izleta.",
+      linkOne: "Početna",
+      linkTwo: "Usluge",
+      linkThree: "Zašto mi",
+      linkFour: "Utisci",
+      linkFive: "Galerija",
+      linkSix: "Česta pitanja",
+      linkSeven: "Kontakt",
+      hours: "Radno vrijeme",
+      dayOne: "Pon",
+      dayTwo: "Pet",
+      dayThree: "Sub",
+      dayFour: "Ned",
+      copy: "© 2026 ILINA KAYAK RAFTING. SVA PRAVA ZADRŽANA.",
+    },
   },
 
   en: {
@@ -163,6 +180,23 @@ export const translations = {
       message: "Message",
       placeholder: "Preferred date, activity, and number of people",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.193265188015!2d17.1827942!3d44.7606257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e030037a6fe37%3A0xed7ffb31ec23dff!2sIlina%20Kayak%20Rafting!5e1!3m2!1sen!2sba!4v1780234225726!5m2!1sen!2sba",
+    },
+
+    footer: {
+      text: "Ilina Kayak Rafting is a team of rafting and kayaking enthusiasts who combine adventure, nature, and professional guidance into an experience to remember. With years of experience, certified professionals, and a true passion for whitewater, we provide safe and unforgettable experiences on the Vrbas for everyone looking for more than an ordinary trip.",
+      linkOne: "Home",
+      linkTwo: "Services",
+      linkThree: "Why Us",
+      linkFour: "Testimonials",
+      linkFive: "Gallery",
+      linkSix: "FAQ",
+      linkSeven: "Contact",
+      hours: "Working Hours",
+      dayOne: "Mon",
+      dayTwo: "Fri",
+      dayThree: "Sat",
+      dayFour: "Sun",
+      copy: "© 2026 ILINA KAYAK RAFTING. ALL RIGHTS RESERVED.",
     },
   },
 };
