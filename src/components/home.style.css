@@ -795,7 +795,7 @@ input:checked + .btn::before {
 .contact {
   padding: 90px 0px;
   background-color: #df6535;
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 24px 24px 0px 0px;
 }
 
 .contact-title {
@@ -968,6 +968,107 @@ textarea::placeholder {
   width: 100%;
 }
 
+/* FOOTER */
+footer {
+  background-color: #1e1916;
+  padding: 20px 0px;
+}
+
+.footer-holder {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: #1e1916;
+  border-radius: 24px;
+  padding-bottom: 40px;
+}
+
+.footer-width-holder {
+  width: 95%;
+  margin: 0px auto;
+  color: #efead3;
+}
+
+.footer-logo {
+  margin-bottom: 12px;
+}
+
+.footer-text-holder {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.footer-text {
+  max-width: 500px;
+  width: 100%;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.footer-links-holder {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 60px;
+  font-family: "Tanker";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-nav-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  list-style: none;
+  letter-spacing: 4%;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #efead3;
+}
+
+.work-hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  letter-spacing: 4%;
+  margin-left: 40px;
+}
+
+.copyright {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0px;
+}
+
+.copyright span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 14px;
+  text-transform: lowercase;
+  color: #efead3;
+}
+
+.copy-logo {
+  width: 25px;
+  height: 25px;
+}
+
 @media screen and (max-width: 1280px) {
   .header-holder {
     width: 95%;
@@ -978,7 +1079,9 @@ textarea::placeholder {
   .why-section-holder,
   .test-holder,
   .gallery-section-holder,
-  .faq-section-holder {
+  .faq-section-holder,
+  .footer-holder,
+  .copyright {
     width: 95%;
   }
 }
@@ -998,6 +1101,10 @@ textarea::placeholder {
 
   .contact-map-holder {
     max-width: 550px;
+  }
+
+  .work-hours {
+    margin-left: 0;
   }
 }
 
@@ -1152,6 +1259,29 @@ textarea::placeholder {
   .map {
     height: 450px;
   }
+
+  .footer-text-holder {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .footer-text {
+    max-width: 1000px;
+  }
+
+  .footer-links-holder {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  .footer-nav-holder {
+    gap: 20px;
+  }
+
+  .work-hours {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -1261,7 +1391,13 @@ textarea::placeholder {
   .map {
     height: 350px;
   }
+
+  .copyright {
+    flex-direction: column-reverse;
+    gap: 8px;
+  }
 }
+
 @media screen and (max-width: 650px) {
   .hero-title {
     font-size: 50px;
