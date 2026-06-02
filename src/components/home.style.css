@@ -9,17 +9,46 @@ html {
 }
 
 /* HEADER */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
 .header-holder {
   max-width: 1280px;
   width: 100%;
+  min-height: 88px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
 }
 
-.menu-icon {
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: transparent;
+  border: none;
+  padding: 0;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.menu-icon,
+.close-icon {
+  font-size: 35px;
+  color: #1e1916;
+}
+
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -28,9 +57,64 @@ html {
 
 .btn-holder {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+}
+
+.off-screen-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #efead3;
+  color: #1e1916;
+  transform: translateY(-18px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform 0.35s ease,
+    opacity 0.35s ease,
+    visibility 0.35s ease;
+  z-index: 10;
+  height: 100vh;
+}
+
+.off-screen-menu.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.off-screen-menu-holder {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.off-screen-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.off-screen-menu-link {
+  color: #1e1916;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 1.2;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+  font-family: "Tanker";
+  font-weight: 400;
+}
+
+.off-screen-menu-link:hover {
+  color: #df6535;
+  transform: translateX(6px);
 }
 
 .btn {
@@ -404,6 +488,10 @@ input:checked + .btn::before {
 }
 
 /* TESTIMONIAL */
+.test {
+  padding: 90px 0px;
+}
+
 .test-holder {
   max-width: 1280px;
   width: 100%;
@@ -1030,6 +1118,14 @@ footer {
 .nav-item a {
   text-decoration: none;
   color: #efead3;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #df6535;
+  transform: translateX(6px);
 }
 
 .work-hours {
@@ -1081,7 +1177,8 @@ footer {
   .gallery-section-holder,
   .faq-section-holder,
   .footer-holder,
-  .copyright {
+  .copyright,
+  .off-screen-menu-holder {
     width: 95%;
   }
 }
@@ -1319,6 +1416,10 @@ footer {
     gap: 36px;
   }
 
+  .test {
+    padding: 45px 0px;
+  }
+
   .test-arrow {
     display: none;
   }
@@ -1411,6 +1512,11 @@ footer {
   .menu-icon {
     width: 40px;
     height: 40px;
+  }
+
+  .close-icon {
+    width: 30px;
+    height: 30px;
   }
 
   .logo {
