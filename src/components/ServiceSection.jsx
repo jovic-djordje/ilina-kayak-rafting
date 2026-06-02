@@ -43,7 +43,7 @@ const ServiceSection = ({ t }) => {
   ];
 
   return (
-    <section className="service" id="service">
+    <section className="service" id="services">
       <div className="service-section-holder">
         <div className="service-section-text-holder">
           <h2 className="service-title">{t.service.title}</h2>

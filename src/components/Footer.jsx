@@ -16,13 +16,13 @@ const Footer = ({ t }) => {
                   <a href="#hero">{t.footer.linkOne}</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#service">{t.footer.linkTwo}</a>
+                  <a href="#services">{t.footer.linkTwo}</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#why">{t.footer.linkThree}</a>
+                  <a href="#why-us">{t.footer.linkThree}</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#test">{t.footer.linkFour}</a>
+                  <a href="#testimonials">{t.footer.linkFour}</a>
                 </li>
               </ul>
 

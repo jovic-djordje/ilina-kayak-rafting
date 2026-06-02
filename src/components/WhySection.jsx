@@ -24,7 +24,7 @@ const WhySection = ({ t }) => {
   ];
 
   return (
-    <section className="why" id="why">
+    <section className="why" id="why-us">
       <div className="why-section-holder">
         <div className="why-section-text-holder">
           <h2 className="why-title">{t.why.title}</h2>

@@ -23,71 +23,149 @@ const Logo = ({ className }) => {
 };
 
 const Hero = ({ className }) => {
-  return <img src={hero} alt="" className={className} />;
+  return (
+    <img
+      src={hero}
+      alt="Rafting i kajak avantura na rijeci Vrbas u Banjoj Luci"
+      className={className}
+    />
+  );
 };
 
 const Why = ({ className }) => {
-  return <img src={why} alt="" className={className} />;
+  return (
+    <img
+      src={why}
+      alt="Iskusni vodiči i sigurna organizacija avantura na Vrbasu"
+      className={className}
+    />
+  );
 };
 
 const WhyMobile = ({ className }) => {
-  return <img src={whyMobile} alt="" className={className} />;
+  return (
+    <img
+      src={whyMobile}
+      alt="Iskusni vodiči i sigurna organizacija avantura na Vrbasu"
+      className={className}
+    />
+  );
 };
 
 const TestOne = ({ className }) => {
-  return <img src={testOne} alt="profile picture" className={className} />;
+  return <img src={testOne} alt="Zoran Trifunovic" className={className} />;
 };
 
 const TestTwo = ({ className }) => {
-  return <img src={testTwo} alt="profile picture" className={className} />;
+  return <img src={testTwo} alt="Martina" className={className} />;
 };
 
 const TestThree = ({ className }) => {
-  return <img src={testThree} alt="profile picture" className={className} />;
+  return <img src={testThree} alt="Mamabezfejsbuka" className={className} />;
 };
 
 const TestFour = ({ className }) => {
-  return <img src={testFour} alt="profile picture" className={className} />;
+  return <img src={testFour} alt="Isidora Ratkovic" className={className} />;
 };
 
 const GalleryOne = ({ className }) => {
-  return <img src={galleryOne} alt="" className={className} />;
+  return (
+    <img
+      src={galleryOne}
+      alt="Rafting kroz brže dijelove rijeke"
+      className={className}
+    />
+  );
 };
 
 const GalleryTwo = ({ className }) => {
-  return <img src={galleryTwo} alt="" className={className} />;
+  return (
+    <img
+      src={galleryTwo}
+      alt="Rafting čamci okupljeni tokom ture"
+      className={className}
+    />
+  );
 };
 
 const GalleryThree = ({ className }) => {
-  return <img src={galleryThree} alt="" className={className} />;
+  return (
+    <img
+      src={galleryThree}
+      alt="Grupa gostiju nakon rafting avanture"
+      className={className}
+    />
+  );
 };
 
 const GalleryFour = ({ className }) => {
-  return <img src={galleryFour} alt="" className={className} />;
+  return (
+    <img
+      src={galleryFour}
+      alt="Gost u zaštitnoj opremi na rijeci Vrbas"
+      className={className}
+    />
+  );
 };
 
 const GalleryFive = ({ className }) => {
-  return <img src={galleryFive} alt="" className={className} />;
+  return (
+    <img
+      src={galleryFive}
+      alt="Rafting grupa na mirnijem dijelu Vrbasa"
+      className={className}
+    />
+  );
 };
 
 const GallerySix = ({ className }) => {
-  return <img src={gallerySix} alt="" className={className} />;
+  return (
+    <img
+      src={gallerySix}
+      alt="Kajakaš u akciji na vodi"
+      className={className}
+    />
+  );
 };
 
 const GallerySeven = ({ className }) => {
-  return <img src={gallerySeven} alt="" className={className} />;
+  return (
+    <img
+      src={gallerySeven}
+      alt="Porodica uživa u vožnji čamcem"
+      className={className}
+    />
+  );
 };
 
 const GalleryEight = ({ className }) => {
-  return <img src={galleryEight} alt="" className={className} />;
+  return (
+    <img
+      src={galleryEight}
+      alt="Ekipa u čamcu tokom rafting ture"
+      className={className}
+    />
+  );
 };
 
 const GalleryNine = ({ className }) => {
-  return <img src={galleryNine} alt="" className={className} />;
+  return (
+    <img
+      src={galleryNine}
+      alt="Gosti se opuštaju i uživaju u rafting iskustvu"
+      className={className}
+    />
+  );
 };
 
 const GalleryTen = ({ className }) => {
-  return <img src={galleryTen} alt="" className={className} />;
+  return (
+    <img
+      src={galleryTen}
+      alt="Gost nakon avanture na Vrbasu"
+      className={className}
+    />
+  );
 };
 
 const DevLogo = ({ className }) => {

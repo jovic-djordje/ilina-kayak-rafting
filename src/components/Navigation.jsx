@@ -66,7 +66,7 @@ const Navigation = ({ t, language, toggleLanguage }) => {
             </li>
             <li className="off-screen-menu-item">
               <a
-                href="#service"
+                href="#services"
                 className="off-screen-menu-link"
                 onClick={toggleMenu}
               >
@@ -75,7 +75,7 @@ const Navigation = ({ t, language, toggleLanguage }) => {
             </li>
             <li className="off-screen-menu-item">
               <a
-                href="#why"
+                href="#why-us"
                 className="off-screen-menu-link"
                 onClick={toggleMenu}
               >
@@ -84,7 +84,7 @@ const Navigation = ({ t, language, toggleLanguage }) => {
             </li>
             <li className="off-screen-menu-item">
               <a
-                href="#test"
+                href="#testimonials"
                 className="off-screen-menu-link"
                 onClick={toggleMenu}
               >

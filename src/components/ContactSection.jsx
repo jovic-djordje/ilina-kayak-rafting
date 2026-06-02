@@ -12,7 +12,7 @@ const ContactSection = ({ t }) => {
 
         <div className="contact-form-holder">
           <div className="form-holder">
-            <form className="contact-form">
+            <form className="contact-form" method="post">
               <div className="contact-form-row">
                 <div className="contact-form-group">
                   <label htmlFor="firstName">{t.contact.firstName}</label>
@@ -46,7 +46,7 @@ const ContactSection = ({ t }) => {
                 />
               </div>
 
-              <button className="hero-btn contact-btn">
+              <button className="hero-btn contact-btn" type="submit">
                 <span className="hero-btn-text">{t.hero.btn}</span>
                 <div className="btn-icon-holder">
                   <GoArrowUpRight className="btn-icon" />
@@ -58,9 +58,10 @@ const ContactSection = ({ t }) => {
               <div className="contact-info-top">
                 <div className="contact-info-column">
                   <a
-                    href="https://www.youtube.com/@ilinakayakrafting"
+                    href="https://www.instagram.com/ilina_kajak_rafting/"
                     className="contact-info-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span>Instagram</span>
                     <GoArrowRight className="contact-info-icon" />
@@ -69,6 +70,7 @@ const ContactSection = ({ t }) => {
                     href="https://www.youtube.com/@ilinakayakrafting"
                     className="contact-info-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span>YouTube</span>
                     <GoArrowRight className="contact-info-icon" />
@@ -77,6 +79,7 @@ const ContactSection = ({ t }) => {
                     href="https://www.tiktok.com/@ilina_kayak_rafting_bl?"
                     className="contact-info-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span>TikTok</span>
                     <GoArrowRight className="contact-info-icon" />
@@ -129,14 +132,13 @@ const ContactSection = ({ t }) => {
 
           <div className="contact-map-holder">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.193265188015!2d17.1827942!3d44.7606257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e030037a6fe37%3A0xed7ffb31ec23dff!2sIlina%20Kayak%20Rafting!5e1!3m2!1sbs!2sba!4v1780234225726!5m2!1sbs!2sba"
               width="100%"
               height="790"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ilina Kayak Rafting Map"
+              title="Lokacija Ilina Kayak Rafting u Banjoj Luci"
               className="map"
               src={t.contact.map}
             />

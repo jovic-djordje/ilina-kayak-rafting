@@ -81,7 +81,7 @@ const Testimonials = ({ t }) => {
   }, []);
 
   return (
-    <section className="test" id="test">
+    <section className="test" id="testimonials">
       <div className="test-holder">
         <Logo className="logo" />
 
