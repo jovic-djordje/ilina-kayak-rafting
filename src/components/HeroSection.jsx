@@ -1,9 +1,9 @@
 import { GoArrowUpRight } from "react-icons/go";
-import { Hero } from "../assets/images";
+import { Hero, HeroMobile } from "../assets/images";
 
 const HeroSection = ({ t }) => {
   return (
-    <section className="hero" id="hero">
+    <section className="hero">
       <div className="hero-section-holder">
         <div className="hero-section-text-holder">
           <h1 className="hero-title">{t.hero.title}</h1>
@@ -16,6 +16,7 @@ const HeroSection = ({ t }) => {
           </a>
         </div>
         <Hero className="hero-img" />
+        <HeroMobile className="hero-mobile-img" />
       </div>
     </section>
   );

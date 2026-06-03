@@ -162,7 +162,6 @@ input:checked + .btn::before {
   width: 100%;
   margin: 0px auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 60px;
@@ -172,9 +171,9 @@ input:checked + .btn::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
-  text-align: center;
+  text-align: start;
   color: #1e1916;
 }
 
@@ -239,9 +238,19 @@ input:checked + .btn::before {
 }
 
 .hero-img {
+  max-width: 600px;
+  width: 100%;
+  max-height: 550px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.hero-mobile-img {
   max-width: 1280px;
   width: 100%;
   border-radius: 16px;
+  display: none;
 }
 
 /*SERVICE SECTION */
@@ -346,7 +355,7 @@ input:checked + .btn::before {
   width: 100%;
   margin-top: auto;
   cursor: pointer;
-  padding: 8px;
+  padding: 8px 12px;
   border-radius: 8px;
   transition:
     background-color 0.3s ease,
@@ -1184,6 +1193,14 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+  .hero-img {
+    max-width: 500px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+  }
+
   .service-cart {
     min-height: 300px;
   }
@@ -1206,6 +1223,23 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  .hero-img {
+    display: none;
+  }
+
+  .hero-mobile-img {
+    display: block;
+  }
+
+  .hero-section-holder {
+    flex-direction: column;
+  }
+
+  .hero-section-text-holder {
+    align-items: center;
+    text-align: center;
+  }
+
   .hero-title {
     font-size: 68px;
   }

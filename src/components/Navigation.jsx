@@ -19,7 +19,7 @@ const Navigation = ({ t, language, toggleLanguage }) => {
   }, [isMenuOpen]);
 
   return (
-    <header className="site-header">
+    <header className="site-header" id="hero">
       <div className="header-holder">
         <button
           type="button"

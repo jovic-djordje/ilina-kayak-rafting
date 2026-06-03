@@ -1,5 +1,6 @@
 import logo from "./logoilina.png";
 import hero from "./hero.webp";
+import heroMobile from "./hero-mobile.webp";
 import why from "./why-choose-us.webp";
 import whyMobile from "./why-choose-us-mobile.webp";
 import testOne from "./testOne.webp";
@@ -26,6 +27,16 @@ const Hero = ({ className }) => {
   return (
     <img
       src={hero}
+      alt="Rafting i kajak avantura na rijeci Vrbas u Banjoj Luci"
+      className={className}
+    />
+  );
+};
+
+const HeroMobile = ({ className }) => {
+  return (
+    <img
+      src={heroMobile}
       alt="Rafting i kajak avantura na rijeci Vrbas u Banjoj Luci"
       className={className}
     />
@@ -175,6 +186,7 @@ const DevLogo = ({ className }) => {
 export {
   Logo,
   Hero,
+  HeroMobile,
   Why,
   WhyMobile,
   TestOne,
