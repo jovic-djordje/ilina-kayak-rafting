@@ -46,12 +46,33 @@ const ServiceSection = ({ t }) => {
     <section className="service" id="services">
       <div className="service-section-holder">
         <div className="service-section-text-holder">
-          <h2 className="service-title">{t.service.title}</h2>
-          <p className="service-text">{t.service.text}</p>
+          <h2
+            className="service-title"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            {t.service.title}
+          </h2>
+
+          <p
+            className="service-text"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="700"
+          >
+            {t.service.text}
+          </p>
         </div>
+
         <div className="service-section-cart-holder">
-          {carts.map((cart) => (
-            <div className="service-cart" key={cart.id}>
+          {carts.map((cart, index) => (
+            <div
+              className="service-cart"
+              key={cart.id}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+              data-aos-duration="700"
+            >
               <div className="service-cart-width">
                 <div className="service-cart-icon-holder">{cart.icon}</div>
                 <h3 className="service-cart-title">{cart.title}</h3>

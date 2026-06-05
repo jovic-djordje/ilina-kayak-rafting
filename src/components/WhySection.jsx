@@ -14,7 +14,6 @@ const WhySection = ({ t }) => {
       title: t.why.cartTwoTitle,
       text: t.why.cartTwoText,
     },
-
     {
       id: 3,
       num: "03",
@@ -27,12 +26,29 @@ const WhySection = ({ t }) => {
     <section className="why" id="why-us">
       <div className="why-section-holder">
         <div className="why-section-text-holder">
-          <h2 className="why-title">{t.why.title}</h2>
-          <p className="why-text">{t.why.text}</p>
+          <h2 className="why-title" data-aos="fade-up" data-aos-duration="700">
+            {t.why.title}
+          </h2>
+
+          <p
+            className="why-text"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="700"
+          >
+            {t.why.text}
+          </p>
         </div>
+
         <div className="why-section-cart-holder">
-          {carts.map((cart) => (
-            <div className="why-cart" key={cart.id}>
+          {carts.map((cart, index) => (
+            <div
+              className="why-cart"
+              key={cart.id}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+              data-aos-duration="700"
+            >
               <div className="why-cart-width">
                 <span className="why-num">{cart.num}</span>
                 <div className="why-cart-text-holder">
@@ -42,8 +58,20 @@ const WhySection = ({ t }) => {
               </div>
             </div>
           ))}
-          <Why className="why-section-img" />
-          <WhyMobile className="why-section-img-mobile" />
+
+          <Why
+            className="why-section-img"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="900"
+          />
+
+          <WhyMobile
+            className="why-section-img-mobile"
+            data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="900"
+          />
         </div>
       </div>
     </section>

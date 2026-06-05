@@ -40,7 +40,9 @@ const FaqSection = ({ t }) => {
   return (
     <section className="faq" id="faq">
       <div className="faq-section-holder">
-        <h2 className="faq-title">{t.faq.title}</h2>
+        <h2 className="faq-title" data-aos="fade-up" data-aos-duration="700">
+          {t.faq.title}
+        </h2>
 
         <div className="faq-list">
           {faqs.map((faq) => (
