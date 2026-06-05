@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Home from "./components/Home";
-import { useEffect, useState } from "react";
 import { translations } from "./data/translation";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,31 +14,19 @@ function App() {
       once: true,
       offset: 80,
       easing: "ease-out-cubic",
+      disable: () => window.innerWidth < 768,
     });
 
     AOS.refresh();
   }, []);
 
   const toggleLanguage = () => {
-    setLanguage(language === "sr" ? "en" : "sr");
+    setLanguage((prev) => (prev === "sr" ? "en" : "sr"));
   };
 
   const t = translations[language];
 
-  return (
-    <>
-      <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Home t={t} language={language} toggleLanguage={toggleLanguage} />
-            }
-          />
-        </Routes>
-      </Router>
-    </>
-  );
+  return <Home t={t} language={language} toggleLanguage={toggleLanguage} />;
 }
 
 export default App;

@@ -44,6 +44,23 @@ html {
   --radius-full: 50%;
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 16px;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  z-index: 2000;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
 /* HEADER */
 
 .site-header {
@@ -1073,6 +1090,7 @@ footer {
 
 .footer-logo {
   margin-bottom: 12px;
+  margin-left: -32px;
 }
 
 .footer-text-holder {
@@ -1576,5 +1594,9 @@ footer {
 
   .contact-info-link {
     gap: 12px;
+  }
+
+  .footer-logo {
+    margin-left: -26px;
   }
 }
