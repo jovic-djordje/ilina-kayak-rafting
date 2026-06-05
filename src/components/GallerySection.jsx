@@ -48,7 +48,6 @@ const GallerySection = ({ t }) => {
       image: <GallerySeven className="gallery-img" />,
       className: "gallery-four",
     },
-
     {
       id: 8,
       image: <GalleryEight className="gallery-img" />,
@@ -70,15 +69,32 @@ const GallerySection = ({ t }) => {
     <section className="gallery" id="gallery">
       <div className="gallery-section-holder">
         <div className="gallery-section-text-holder">
-          <h2 className="gallery-title">{t.gallery.title}</h2>
-          <p className="gallery-text">{t.gallery.text}</p>
+          <h2
+            className="gallery-title"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            {t.gallery.title}
+          </h2>
+
+          <p
+            className="gallery-text"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="700"
+          >
+            {t.gallery.text}
+          </p>
         </div>
 
         <div className="gallery-holder">
-          {galleryImages.map((item) => (
+          {galleryImages.map((item, index) => (
             <div
               className={`gallery-item ${item.className || ""}`}
               key={item.id}
+              data-aos="zoom-in-up"
+              data-aos-delay={index * 70}
+              data-aos-duration="700"
             >
               {item.image}
             </div>

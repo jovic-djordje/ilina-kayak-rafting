@@ -83,12 +83,18 @@ const Testimonials = ({ t }) => {
   return (
     <section className="test" id="testimonials">
       <div className="test-holder">
-        <Logo className="logo" />
+        <Logo className="logo" data-aos="fade-up" data-aos-duration="700" />
 
-        <div className="test-slider">
+        <div
+          className="test-slider"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
           <button
             className="test-arrow test-arrow-left"
             onClick={prevTestimonial}
+            type="button"
           >
             <GoArrowLeft className="left-arrow-icon arrow-icon" />
           </button>
@@ -118,6 +124,7 @@ const Testimonials = ({ t }) => {
                     setCurrent(index);
                     scrollToSlide(index);
                   }}
+                  type="button"
                 ></button>
               ))}
             </div>
@@ -126,6 +133,7 @@ const Testimonials = ({ t }) => {
           <button
             className="test-arrow test-arrow-right"
             onClick={nextTestimonial}
+            type="button"
           >
             <GoArrowRight className="right-arrow-icon arrow-icon" />
           </button>

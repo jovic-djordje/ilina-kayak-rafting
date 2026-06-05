@@ -19,162 +19,197 @@ import galleryNine from "./gallery-nine.webp";
 import galleryTen from "./gallery-ten.webp";
 import devLogo from "./logo2.webp";
 
-const Logo = ({ className }) => {
-  return <img src={logo} alt="Logo" className={className} />;
+const Logo = ({ className, ...props }) => {
+  return <img src={logo} alt="Logo" className={className} {...props} />;
 };
 
-const Hero = ({ className }) => {
+const Hero = ({ className, ...props }) => {
   return (
     <img
       src={hero}
       alt="Rafting i kajak avantura na rijeci Vrbas u Banjoj Luci"
       className={className}
+      {...props}
     />
   );
 };
 
-const HeroMobile = ({ className }) => {
+const HeroMobile = ({ className, ...props }) => {
   return (
     <img
       src={heroMobile}
       alt="Rafting i kajak avantura na rijeci Vrbas u Banjoj Luci"
       className={className}
+      {...props}
     />
   );
 };
 
-const Why = ({ className }) => {
+const Why = ({ className, ...props }) => {
   return (
     <img
       src={why}
       alt="Iskusni vodiči i sigurna organizacija avantura na Vrbasu"
       className={className}
+      {...props}
     />
   );
 };
 
-const WhyMobile = ({ className }) => {
+const WhyMobile = ({ className, ...props }) => {
   return (
     <img
       src={whyMobile}
       alt="Iskusni vodiči i sigurna organizacija avantura na Vrbasu"
       className={className}
+      {...props}
     />
   );
 };
 
-const TestOne = ({ className }) => {
-  return <img src={testOne} alt="Zoran Trifunovic" className={className} />;
+const TestOne = ({ className, ...props }) => {
+  return (
+    <img
+      src={testOne}
+      alt="Zoran Trifunovic"
+      className={className}
+      {...props}
+    />
+  );
 };
 
-const TestTwo = ({ className }) => {
-  return <img src={testTwo} alt="Martina" className={className} />;
+const TestTwo = ({ className, ...props }) => {
+  return <img src={testTwo} alt="Martina" className={className} {...props} />;
 };
 
-const TestThree = ({ className }) => {
-  return <img src={testThree} alt="Mamabezfejsbuka" className={className} />;
+const TestThree = ({ className, ...props }) => {
+  return (
+    <img
+      src={testThree}
+      alt="Mamabezfejsbuka"
+      className={className}
+      {...props}
+    />
+  );
 };
 
-const TestFour = ({ className }) => {
-  return <img src={testFour} alt="Isidora Ratkovic" className={className} />;
+const TestFour = ({ className, ...props }) => {
+  return (
+    <img
+      src={testFour}
+      alt="Isidora Ratkovic"
+      className={className}
+      {...props}
+    />
+  );
 };
 
-const GalleryOne = ({ className }) => {
+const GalleryOne = ({ className, ...props }) => {
   return (
     <img
       src={galleryOne}
       alt="Rafting kroz brže dijelove rijeke"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryTwo = ({ className }) => {
+const GalleryTwo = ({ className, ...props }) => {
   return (
     <img
       src={galleryTwo}
       alt="Rafting čamci okupljeni tokom ture"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryThree = ({ className }) => {
+const GalleryThree = ({ className, ...props }) => {
   return (
     <img
       src={galleryThree}
       alt="Grupa gostiju nakon rafting avanture"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryFour = ({ className }) => {
+const GalleryFour = ({ className, ...props }) => {
   return (
     <img
       src={galleryFour}
       alt="Gost u zaštitnoj opremi na rijeci Vrbas"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryFive = ({ className }) => {
+const GalleryFive = ({ className, ...props }) => {
   return (
     <img
       src={galleryFive}
       alt="Rafting grupa na mirnijem dijelu Vrbasa"
       className={className}
+      {...props}
     />
   );
 };
 
-const GallerySix = ({ className }) => {
+const GallerySix = ({ className, ...props }) => {
   return (
     <img
       src={gallerySix}
       alt="Kajakaš u akciji na vodi"
       className={className}
+      {...props}
     />
   );
 };
 
-const GallerySeven = ({ className }) => {
+const GallerySeven = ({ className, ...props }) => {
   return (
     <img
       src={gallerySeven}
       alt="Porodica uživa u vožnji čamcem"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryEight = ({ className }) => {
+const GalleryEight = ({ className, ...props }) => {
   return (
     <img
       src={galleryEight}
       alt="Ekipa u čamcu tokom rafting ture"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryNine = ({ className }) => {
+const GalleryNine = ({ className, ...props }) => {
   return (
     <img
       src={galleryNine}
       alt="Gosti se opuštaju i uživaju u rafting iskustvu"
       className={className}
+      {...props}
     />
   );
 };
 
-const GalleryTen = ({ className }) => {
+const GalleryTen = ({ className, ...props }) => {
   return (
     <img
       src={galleryTen}
       alt="Gost nakon avanture na Vrbasu"
       className={className}
+      {...props}
     />
   );
 };

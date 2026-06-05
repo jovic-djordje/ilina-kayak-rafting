@@ -4,9 +4,20 @@ const Footer = ({ t }) => {
   return (
     <footer>
       <div className="footer-holder">
-        <Logo className="logo footer-logo" />
+        <Logo
+          className="logo footer-logo"
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-anchor-placement="top-bottom"
+        />
 
-        <div className="footer-width-holder">
+        <div
+          className="footer-width-holder"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="800"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div className="footer-text-holder">
             <p className="footer-text">{t.footer.text}</p>
 
@@ -56,7 +67,13 @@ const Footer = ({ t }) => {
         </div>
       </div>
 
-      <div className="copyright">
+      <div
+        className="copyright"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="800"
+        data-aos-anchor-placement="top-bottom"
+      >
         <span>{t.footer.copy}</span>
 
         <span>

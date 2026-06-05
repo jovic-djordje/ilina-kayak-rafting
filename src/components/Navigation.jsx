@@ -36,7 +36,7 @@ const Navigation = ({ t, language, toggleLanguage }) => {
           )}
         </button>
 
-        <Logo className="logo" />
+        <Logo className="logo" data-aos="fade-down" data-aos-duration="700" />
 
         <div className="btn-holder">
           <input
