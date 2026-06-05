@@ -24,6 +24,7 @@ const Logo = ({ className, ...props }) => (
     src={logo}
     alt="Ilina Kayak Rafting logo"
     className={className}
+    width="120"
     decoding="async"
     {...props}
   />
@@ -73,8 +74,6 @@ const WhyMobile = ({ className, ...props }) => (
     src={whyMobile}
     alt="Iskusni vodiči i sigurna organizacija avantura na Vrbasu"
     className={className}
-    width="356"
-    height="239"
     loading="lazy"
     decoding="async"
     {...props}

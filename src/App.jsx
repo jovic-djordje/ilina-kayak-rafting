@@ -14,7 +14,6 @@ function App() {
       once: true,
       offset: 80,
       easing: "ease-out-cubic",
-      disable: () => window.innerWidth < 768,
     });
 
     AOS.refresh();
